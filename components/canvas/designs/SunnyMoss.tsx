@@ -1,24 +1,24 @@
+import * as THREE from 'three';
 import React from 'react';
 import { Sphere, MeshDistortMaterial } from '@react-three/drei';
-import * as THREE from 'three';
 
-interface PeachMossProps {
+interface SunnyMossProps {
   marbleTexture?: THREE.Texture;
 }
 
-const PeachMoss: React.FC<PeachMossProps> = ({ marbleTexture }) => {
+function SunnyMoss({ marbleTexture }: SunnyMossProps) {
   return (
     <Sphere args={[1, 100, 100]}>
       <MeshDistortMaterial
-        color="#FFB7B2"
+        color="#FFEEAD"
         distort={0.4}
         speed={1}
         roughness={0.9}
         metalness={0}
-        map={marbleTexture}
+        map={marbleTexture || null}
       />
     </Sphere>
   );
-};
+}
 
-export default PeachMoss;
+export default SunnyMoss;

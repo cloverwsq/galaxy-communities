@@ -64,6 +64,23 @@ Open `components/canvas/designs/DesignRegistry.tsx` and follow these three sub-s
 
 ---
 
+## 🍌 Using Nano Banana (Gemini 2.5 Flash Image)
+You can automate design creation by calling the Nano Banana API via Google AI Studio. This consolidates billing and leverages AI for tactile textures.
+
+### Setup
+1. Get your API Key from [Google AI Studio](https://aistudio.google.com/).
+2. Add it to your `.env.local`:
+   ```bash
+   GOOGLE_AI_STUDIO_API_KEY=your_key_here
+   ```
+3. Use the integrated `lib/gemini.ts` utility.
+
+### Recommended Prompt
+To generate a new design component, use this prompt:
+> "Act as a React/Three.js developer. Create a 'Cozy Cosmic' planet component in React Three Fiber. Color: [HEX], Texture: [TYPE]. Style: Handmade, tactile, soft edges. Use MeshDistortMaterial. Return only the JSX code."
+
+---
+
 ## 🚀 Advanced: Using External Assets (GLTF/OBJ)
 If you designed a complex planet in an external tool:
 1.  Place the `.gltf` file in the `public/assets/` folder.

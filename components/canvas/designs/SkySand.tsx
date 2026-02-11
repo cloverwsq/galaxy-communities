@@ -2,23 +2,23 @@ import * as THREE from 'three';
 import React from 'react';
 import { Sphere, MeshDistortMaterial } from '@react-three/drei';
 
-interface LavenderMossProps {
+interface SkySandProps {
   marbleTexture?: THREE.Texture;
 }
 
-function LavenderMoss({ marbleTexture }: LavenderMossProps) {
+const SkySand: React.FC<SkySandProps> = ({ marbleTexture }) => {
   return (
     <Sphere args={[1, 100, 100]}>
       <MeshDistortMaterial
-        color="#B28DFF"
-        distort={0.4}
-        speed={1}
-        roughness={0.9}
+        color="#AEC6CF"
+        distort={0}
+        speed={0}
+        roughness={1.0}
         metalness={0}
         map={marbleTexture || null}
       />
     </Sphere>
   );
-}
+};
 
-export default LavenderMoss;
+export default SkySand;

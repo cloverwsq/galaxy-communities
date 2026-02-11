@@ -1,20 +1,24 @@
-import * as React from 'react';
+import React from 'react';
 import { Sphere, MeshDistortMaterial } from '@react-three/drei';
 import * as THREE from 'three';
 
-const PeachClay: React.FC<{ marbleTexture?: THREE.Texture }> = ({ marbleTexture }) => {
+interface MintClayProps {
+  marbleTexture?: THREE.Texture;
+}
+
+const MintClay: React.FC<MintClayProps> = ({ marbleTexture }) => {
   return (
     <Sphere args={[1, 100, 100]}>
       <MeshDistortMaterial
-        color="#FFB7B2"
+        color="#B2F2BB"
         distort={0.1}
-        speed={1}
+        speed={0.8}
         roughness={0.3}
         metalness={0.1}
-        map={marbleTexture || null}
+        map={marbleTexture}
       />
     </Sphere>
   );
 };
 
-export default PeachClay;
+export default MintClay;

@@ -2,6 +2,7 @@
   "name": "galaxy-communities",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@react-three/drei": "^9.0.0",
     "@react-three/fiber": "^8.0.0",
     "@react-three/postprocessing": "^2.19.1",

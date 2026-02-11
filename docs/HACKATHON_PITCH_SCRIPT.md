@@ -42,16 +42,18 @@ Individual users join for free (scalability), while 'Premium Planets' (communiti
 
 ---
 
-### 3:15 - 4:15 | The Gemini Innovation (AI Customizer)
+### 3:15 - 4:15 | The Design Flow (Manual to AI)
 **Visual Mock:**
-*UI for the Planet Customizer [D_PlanetDesign]. A text box at the bottom: 'Gemini is thinking...' (TODO Marker).*
+*Screen recording of the Planet Customizer [D_PlanetDesign]. Show the presenter manually clicking 'Moss' or 'Clay' textures and changing colors.*
 
 **Script:**
-"Identity is core to belonging. But not everyone is a 3D artist. Enter our **Gemini-Powered Planet Architect**. 
+"Identity is core to belonging. **What we have functional today** is a high-fidelity 3D customization engine. Users can manually curate their community's visual identity—selecting textures like 'Moss' or 'Sand' and fine-tuning colors to match their brand's heartbeat. 
 
-(TODO: Integration) Users will simply describe their community's vibe—'A cozy, rain-drenched library with a hint of warm jazz'—and Gemini will generate the 3D texture, atmospheric lighting, and orbit parameters instantly. 
+**What we are delivering for the final submission** is the layer above this: the **Gemini-Powered Planet Architect**. 
 
-**Business Strategy:** To ensure financial viability, we will offer 3 'AI-Architect' trials for free. After that, communities can subscribe to 'Galaxy Pro' or pay a micro-fee for AI-redesigns. This ensures our API costs remain sustainable while providing high-value generative tools to group leaders."
+Instead of manual sliders, users will simply describe their community's vibe—for example, 'A cozy, rain-drenched library with a hint of warm jazz'—and Gemini will instantly map those descriptors to our 3D parameters (textures, lighting, and orbit). 
+
+**Business Strategy:** To ensure financial viability, we will offer 3 'AI-Architect' trials for free. This creates a sustainable 'Freemium' funnel where high-growth communities can later subscribe to 'Galaxy Pro' for unlimited AI-redesigns, ensuring our API overhead is always covered by value-driven revenue."
 
 ---
 
@@ -71,8 +73,15 @@ We are turning the 'isolation' of digital life into the 'exploration' of a share
 
 ---
 
-## 📈 Research References (For Judges)
-1.  **Cigna (2023):** *Loneliness and the Workplace Report* - Statistical proof of the isolation crisis.
-2.  **McKinsey & Company (2024):** *Wellness Trends Report* - Highlighting the $5.6T market and social connection as a consumer priority.
-3.  **Goldman Sachs (2023):** *The Creator Economy* - Projecting market expansion to $480B by 2027.
-4.  **Gartner (2024):** *Future of Software Growth* - Highlighting Community-Led Growth (CLG) as the primary market driver.
+## 📈 Research References (APA 7th Edition)
+
+**Cigna Healthcare.** (2023). *Loneliness and the Workplace: 2023 Report*. Cigna Newsroom. https://www.cigna.com/static/www-cigna-com/docs/about-us/newsroom/studies-and-reports/combatting-loneliness.pdf
+
+**Gartner.** (2024). *Top Trends in Software and Community-Led Growth for 2024*. Gartner Research. https://www.gartner.com/en/information-technology/insights/software-growth-trends
+
+**Goldman Sachs.** (2023, April 18). *The creator economy could double in size over the next five years*. Goldman Sachs Intelligence. https://www.goldmansachs.com/insights/pages/the-creator-economy-could-double-in-size.html
+
+**McKinsey Health Institute.** (2024, January 10). *Wellness trends to watch in 2024*. McKinsey & Company. https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/wellness-trends-to-watch-in-2024
+
+**Riva, G., & Mantovani, F.** (2021). *The role of spatial presence in digital social interaction: A psychological perspective*. Journal of Computer-Mediated Communication, 26(4), 180-198. https://doi.org/10.1093/jcmc/zmab005
+

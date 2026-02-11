@@ -42,34 +42,44 @@ Individual users join for free (scalability), while 'Premium Planets' (communiti
 
 ---
 
-### 3:15 - 4:15 | The Design Flow (Manual to AI)
+### 3:15 - 4:05 | The Design Flow (Manual to AI)
 **Visual Mock:**
 *Screen recording of the Planet Customizer [D_PlanetDesign]. Show the presenter manually clicking 'Moss' or 'Clay' textures and changing colors.*
 
 **Script:**
 "Identity is core to belonging. **What we have functional today** is a high-fidelity 3D customization engine. Users can manually curate their community's visual identity—selecting textures like 'Moss' or 'Sand' and fine-tuning colors to match their brand's heartbeat. 
 
-**What we are delivering for the final submission** is the layer above this: the **Gemini-Powered Planet Architect**. 
-
-Instead of manual sliders, users will simply describe their community's vibe—for example, 'A cozy, rain-drenched library with a hint of warm jazz'—and Gemini will instantly map those descriptors to our 3D parameters (textures, lighting, and orbit). 
-
-**Business Strategy:** To ensure financial viability, we will offer 3 'AI-Architect' trials for free. This creates a sustainable 'Freemium' funnel where high-growth communities can later subscribe to 'Galaxy Pro' for unlimited AI-redesigns, ensuring our API overhead is always covered by value-driven revenue."
+**What we are delivering for the final submission** is the layer above this: the **Gemini-Powered Planet Architect**. Instead of manual sliders, users will simply describe their community's vibe—'A cozy, rain-drenched library with a hint of warm jazz'—and Gemini will instantly map those descriptors to our 3D parameters. This creates a sustainable 'Freemium' funnel where high-growth communities can later subscribe to 'Galaxy Pro' for unlimited AI-redesigns."
 
 ---
 
-### 4:15 - 5:00 | The Vision (Global Market Capture)
+### 4:05 - 4:40 | The Social Fabric (Bubble Editor)
+**Visual Mock:**
+*Screen recording of the Customize Page [E_BubbleEditor]. Zoom into the "Welcome Home" header. Hover over the "Bubble Editor Space" placeholder.*
+
+**Script:**
+"A planet is just a digital asset until its community speaks. **What we have today** is the architectural shell of this transition. As you move from 'Planetary Design' to 'Welcome Home,' our UI preserves your community's 3D identity while preparing the 'Atmospheric Layer.'
+
+**What we are delivering for the final submission** is the conversion of this 'Editor Space' into a live social nexus. Instead of static text, we are implementing 'Vibe Bubbles'—floating fragments that bob around the planet in 3D space. 
+
+These aren't just notifications; they are the 'warm whispers' of a living group. By visualizing community activity as physical atmosphere, we create **Immediate Emotional Proximity**. You can literally 'see' the warmth of a community's conversation before you ever join the chat. Our final sprint will integrate the **Gemini 'Daily Vibe' API** to automatically populate these bubbles, ensuring the galaxy always reflects the real-time energy of its inhabitants."
+
+---
+
+### 4:40 - 5:00 | The Vision (Global Market Capture)
 **Visual Mock:**
 *Full-screen view of the complete Galaxy, rotating. Overlay text highlights 'Social Enterprise | $480B Creator Economy | Cross-Generational UX'.*
 
 **Script:**
 "By 2026, the 'Loneliness Economy' will require more than just chat rooms—it will require **Atmosphere**. 
 
-**Galaxy Communities** is built to be the spatial backbone for this demand. Our roadmap for the final 48 hours bridges the technical and financial:
-1.  **Direct-to-Service API:** Establishing the architecture for localized vendor links (Singapore, London, NY).
-2.  **Gemini AI Architect:** Lowering the barrier to entry for community leaders of all age groups.
-3.  **Cross-Platform Parity:** Ensuring the same 3D experience on mobile, desktop, and tablets to maximize global reach.
+**Galaxy Communities** is the spatial backbone for this demand. Our final sprint bridges the gap: 
+1.  **Direct-to-Service API (LATER):** Localized vendor links. 
+2.  **Gemini AI Architect (LATER):** Natural language planet generation. 
+3.  **Cross-Platform Parity:** Bringing this shared, profitable universe to every device. 
 
-We are turning the 'isolation' of digital life into the 'exploration' of a shared, profitable, and inclusive universe. Thank you."
+Thank you for exploring the future of belonging with us."
+
 
 ---
 

@@ -10,7 +10,9 @@ interface PlanetState {
   surfaceType: 'clay' | 'moss' | 'sand' | 'lavender';
   hasRings: boolean;
   hasMoons: boolean;
-  
+  description: string; // 添加这个字段
+  setPlanetDescription: (desc: string) => void; // 给参数 desc 指定类型为 string
+
   // Cozy Vibe
   isPulsing: boolean;
   bobbingIntensity: number;
@@ -27,6 +29,7 @@ interface PlanetState {
 export const useAppStore = create<PlanetState>((set) => ({
   // Defaults - Warm and Cozy
   color: '#FFB7B2', // Soft Peach
+  description: '',
   surfaceType: 'clay',
   hasRings: false,
   hasMoons: false,
@@ -39,4 +42,5 @@ export const useAppStore = create<PlanetState>((set) => ({
   toggleRings: () => set((state) => ({ hasRings: !state.hasRings })),
   toggleMoons: () => set((state) => ({ hasMoons: !state.hasMoons })),
   setRotationLevel: (rotationLevel) => set({ rotationLevel }),
+  setPlanetDescription: (desc:string) => set({ description: desc}),
 }));

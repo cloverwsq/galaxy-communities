@@ -38,6 +38,7 @@ Data abstraction layer
 This separation ensures maintainability and scalability as features grow.
 
 🧠 Core Technical Components
+
 1️⃣ 3D Spatial Engine
 
 Built using React Three Fiber

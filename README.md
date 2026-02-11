@@ -1,223 +1,85 @@
-🌌 Galaxy Communities
+# 🌌 Galaxy Communities
 
-Galaxy Communities is a scalable spatial community discovery platform built with a modern full-stack web architecture.
-It visualizes digital communities as interactive 3D planets within a shared galaxy environment.
+**Galaxy Communities** is an experimental 3D spatial discovery platform designed to combat social isolation by visualizing digital communities as interactive planets in a shared galaxy. Built for the 2026 digital era, it bridges the gap between digital belonging and physical action through immersive engineering and Gemini AI.
 
-This project explores how immersive spatial interfaces can be engineered to support large-scale community ecosystems.
+---
 
-🏗 System Architecture Overview
+## 🚀 The Vision: Beyond the Feed
+In our hyper-connected landscape, **79% of young adults** report chronic isolation. Traditional "Feed-based" platforms lack a sense of **Place**, leading to emotional disengagement. Galaxy Communities reimagines social discovery as a **Community-Centred** exploration experience.
 
-Galaxy Communities is designed with modularity, extensibility, and scalability in mind.
+*   **Inclusive Discovery:** Every subculture has a visible orbit, from Gen-Z niche interests to an aging population's wellness groups.
+*   **Scalable Infrastructure:** A horizontally scalable 3D engine that handles growth through "Theme Constellations."
+*   **Social Enterprise:** Integrating local service providers directly into planetary ecosystems for **Economic Sustainability**.
 
-High-Level Architecture
-Client (Next.js + React)
-        ↓
-3D Rendering Layer (React Three Fiber)
-        ↓
-Feature Modules (Search, Profile, Creation)
-        ↓
-Global State Store
-        ↓
-API Layer (Extensible)
-        ↓
-Database / External Integrations (Future-ready)
+---
 
+## ✨ Key Features
 
-The architecture separates:
+### 1. Orbital Discovery (Core)
+A high-fidelity 3D galaxy explorer where communities are clustered by thematic similarity. Spatial proximity allows for intuitive, curiosity-driven discovery rather than alphabetical list-scrolling.
 
-Rendering logic (3D layer)
+### 2. Gemini-Powered Planet Architect (AI Layer)
+Leveraging **Gemini 1.5 Flash** to democratize 3D design. Community leaders can describe their "vibe" in natural language (e.g., *"A cozy, rain-drenched library with a hint of warm jazz"*), and our AI maps those parameters to textures, lighting, and orbit instantly.
 
-UI components
+### 3. Atmospheric Bubble Editor
+Visualizing group "warmth" through real-time atmosphere. Users populate their planet with "Vibe Bubbles"—floating fragments of community life—creating **Immediate Emotional Proximity** for new explorers.
 
-Feature-level business logic
+---
 
-Global state management
+## ⚙️ Technical Architecture
 
-Data abstraction layer
+The system is built with a **Modular 3D Architecture**, separating rendering logic from business state to ensure scalability.
 
-This separation ensures maintainability and scalability as features grow.
+*   **3D Engine:** Built with `React Three Fiber` and `Three.js` using declarative scene graphs.
+*   **AI Integration:** Custom `lib/gemini.ts` wrapper for prompt-to-parameter mapping.
+*   **State Management:** `Zustand` handles the global planet registry and synchronized interactions.
+*   **Scale Ready:** Designed for lazy-loading planets and spatial indexing to support thousands of concurrent planetary ecosystems.
 
-🧠 Core Technical Components
+---
 
-1️⃣ 3D Spatial Engine
+## 🛠 Getting Started
 
-Built using React Three Fiber
+### Prerequisites
+- Node.js 18+
+- npm or yarn
+- Google AI Studio API Key (for Planet Architect features)
 
-Planet objects rendered as reusable 3D components
+### Installation
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/galaxy-communities.git
+    cd galaxy-communities
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Set up environment variables:**
+    Create a `.env.local` file in the root directory:
+    ```env
+    GOOGLE_AI_STUDIO_API_KEY=your_gemini_api_key_here
+    ```
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+5.  **Open the galaxy:**
+    Navigate to [http://localhost:3000](http://localhost:3000).
 
-Declarative scene graph management
+---
 
-Real-time rendering optimizations
+## 🧰 Tech Stack
+*   **Framework:** Next.js 14 (App Router)
+*   **Language:** TypeScript
+*   **3D Rendering:** React Three Fiber, Three.js
+*   **AI:** Gemini 1.5 Flash (@google/generative-ai)
+*   **Styling:** Tailwind CSS, Framer Motion
+*   **State:** Zustand
 
-Camera controls and interaction mapping
+---
 
-Design principles:
+## 🏆 Project Status: Gemini Level
+This project is currently a functional hackathon prototype (Project Gemini level). You can find the full academic research and business scalability plan in the [PROJECT_PROPOSAL.md](./docs/PROJECT_PROPOSAL.md).
 
-Component-driven planet abstraction
+**Team:** LLW
 
-Independent planet lifecycle
-
-Scalable object instantiation
-
-Scene-level state isolation
-
-2️⃣ Modular Feature Architecture
-
-Each major feature is encapsulated:
-
-features/
-  ├── galaxy-explorer/
-  ├── search-engine/
-  ├── community-profile/
-  ├── planet-creation/
-
-
-Each feature contains:
-
-UI components
-
-Hooks
-
-Business logic
-
-Local state where possible
-
-This reduces cross-feature coupling and improves maintainability.
-
-3️⃣ State Management Strategy
-
-Global store is used only for:
-
-User session state
-
-Active galaxy data
-
-Planet registry
-
-Interaction state
-
-Local component state handles:
-
-Hover states
-
-Animation triggers
-
-UI toggles
-
-This hybrid approach avoids unnecessary global re-renders and improves performance.
-
-4️⃣ Data Abstraction Layer
-
-Currently uses mock data for:
-
-Communities
-
-Posts
-
-Events
-
-However, the system is structured to support:
-
-REST APIs
-
-GraphQL
-
-WebSocket-based real-time updates
-
-Server-side streaming (Next.js)
-
-Future scalability:
-
-Pagination support
-
-Lazy loading planets
-
-Spatial indexing for large-scale galaxy rendering
-
-⚙️ Scalability Considerations
-Rendering Scalability
-
-To support hundreds or thousands of planets:
-
-Object pooling for 3D meshes
-
-Level-of-detail (LOD) rendering
-
-Lazy instantiation of off-screen planets
-
-Batched updates for animation cycles
-
-Data Scalability
-
-Planned enhancements:
-
-AI-powered semantic search indexing
-
-Distributed moderation system
-
-Planet metadata caching
-
-Activity-driven rendering updates
-
-Infrastructure Scalability
-
-Future deployment architecture may include:
-
-Edge-rendered frontend (Vercel / CDN)
-
-Serverless API functions
-
-Microservice-based AI modules
-
-Moderation bot as isolated service
-
-🔐 Security & Moderation (Planned)
-
-AI-based content moderation engine
-
-Activity anomaly detection
-
-Reputation scoring
-
-Bot-based automated intervention layer
-
-Designed as independent service modules to ensure isolation and reliability.
-
-📂 Project Structure
-app/              # Route-based pages (Next.js App Router)
-components/       # Reusable UI and 3D components
-features/         # Encapsulated feature modules
-store/            # Global state management
-lib/              # Utilities and helpers
-data/             # Mock data layer
-public/           # Textures, images, static assets
-
-🛠 Tech Stack
-
-Next.js (App Router)
-
-React
-
-React Three Fiber
-
-Three.js
-
-TailwindCSS
-
-Modular state architecture
-
-🚀 Engineering Vision
-
-Galaxy Communities is not just a visual experiment.
-
-It is an exploration of:
-
-Spatial UI as a scalable interaction model
-
-3D rendering in production web environments
-
-Modular architecture for large-scale community systems
-
-AI-assisted discovery and moderation layers
-
-The goal is to build infrastructure capable of supporting a globally distributed community ecosystem with immersive discovery at its core.

@@ -5,3 +5,7 @@ build/
 .env*
 .DS_Store
 *.log
+.claude/
+.vscode/
+nul
+tsconfig.tsbuildinfo

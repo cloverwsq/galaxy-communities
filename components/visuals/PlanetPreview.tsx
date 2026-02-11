@@ -110,12 +110,12 @@ function CozyPlanet() {
 }
 
 /**
- * @description A persistent starry background with faint "neighbor" planets 
+ * @description A persistent starry background with faint "neighbor" planets
  * across the available color palette.
  */
+const PALETTE = ['#FFB7B2', '#B28DFF', '#B2F2BB', '#FFEEAD', '#AEC6CF'];
+
 function BackgroundGalaxy() {
-  const PALETTE = ['#FFB7B2', '#B28DFF', '#B2F2BB', '#FFEEAD', '#AEC6CF'];
-  
   // Generate a fixed set of background planets
   const backgroundPlanets = useMemo(() => {
     const planets = [];
